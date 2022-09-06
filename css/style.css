@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container_body{
+    max-width: 1300px;    
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1300px;
+    
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+ 
+.right {
+    position: absolute;
+    right: 570px;
+    width: 300px;
+    
+    background-color: #b0e0e6;
+    text-align: center;
+}
+
+.menu
+{
+	border-style:solid;
+	border-color:rgb(0, 0, 0);
+    padding: 25px;
+    width: 1250px;
+}
+
+.content
+{
+    width: 620px;
+    line-height: 2em;
+}
+
+.content_people
+{
+    width: 950px;
+    line-height: 2em;
+}
+
+.research_topic
+{
+    position: relative;
+    top:-350px;
+}
+
+.research_topic1
+{
+    position: relative;
+    top:-350px;
+    left: 0px;
+    width:300px;
+    text-align: center;
+}
+
+.research_topic2
+{
+    position: relative;
+    top:-380px;
+    left: 325px;
+    width:300px;
+    text-align: center;
+}
+
+.research_topic3
+{
+    position: relative;
+    top:-410px;
+    left: 650px;
+    width:300px;
+    text-align: center;
+}
+
+.research_topic4
+{
+    position: relative;
+    top:-440px;
+    left: 975px;
+    width:300px;
+    text-align: center;
+}
