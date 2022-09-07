@@ -4,6 +4,7 @@
 <meta charset="utf-8"> 
 <title>Homepage</title>
 <link rel="stylesheet" type="text/css" href="css/style.css"> 
+<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_1582902_u0zm91pv15i.css">
 </head>
 
 <style type="text/css">
@@ -77,18 +78,31 @@
     <img src="images/PKU_logo.png" width="213" height="60" float="right">
     <img src="images/lab_name.png" width="400" height="60" float="right">
     <hr style="height:10px;border:none;border-top:10px groove skyblue;" />
-    <div id="menu" class="menu" style="float: left;text-align-last: justify; position:absolute;left:110px;" >
+    <div id="menu" class="menu" style="float: left;text-align-last: justify;" >
         <b><a href="homepage.html"   style="text-decoration:none;"><font size = 5>Homepage</font></a></b>
         <font size = 5><a href="research.html"   style="text-decoration:none;">Research</a></font>
         <font size = 5><a href="contact.html"   style="text-decoration:none;">Dataset</a></font>
         <font size = 5><a href="news.html"   style="text-decoration:none;">News</a></font>
         <font size = 5><a href="publications.html"   style="text-decoration:none;">Publications</a></font>
-        <font size = 5><a href="people.html"   style="text-decoration:none;">People</a></font>
-        
+        <font size = 5><a href="people.html"   style="text-decoration:none;">People</a></font>    
     </div>
-
+</body>
+<body>
+    <div style="width: 600px;">
+        <h1><font size = 6><br><br><br>
+            这是第一个标题
+        </font></h1>
+        <font size = 4.5>
+        <div class ="content" >
+        Integrated photonic chips are able to achieve higher bandwidth and speed than microelectronic chips. Therefore, this technology has the potential to revolutionize communications, computation, sensing, and quantum information science.
+        <br>
+        Our team investigates the physics and applications of photonic integrated circuits, especially next-generation photonic integration technologies based on multi-material systems through advanced integration techniques. The multi-material system enables a wide range of high-performance devices, including highly coherent lasers and microcombs, ultra-low loss waveguides, highly-nonlinear devices, and high-speed modulators. The applications of photonic integrated circuits we design, fabricate, and demonstrate are numerous: Internet communication, AI, LiDAR, biomedicine, and quantum computing.
+        </font>
+        </div>
+    </div>
     <!-- 轮播图容器 -->
-    <div id="carousel" style="position: relative; left: 330px; top: 125px">
+
+    <div id="carousel" style="position: relative; left: 330px; top: -475px">
         <ul> <!-- 图片容器 -->
             <li>
                 <img src="http://www.sdust.edu.cn/__local/9/7A/B1/F29B84DEF72DD329997E8172ABA_664BA3EF_32466.jpg" >
@@ -108,18 +122,11 @@
         <div id="rightArrow" class="iconfont icon-arrow-right"></div> <!-- 右箭头切换按钮 --> 
         <div id="sliderBtn"></div> <!-- 切换按钮组 -->
     </div>
-    <div style="position: relative; top: -375px"><br>
-        <h1><font size = 6>
-            这是第一个标题
-        </font></h1>
-        <font size = 4.5>
-        <div class ="content" >
-        Integrated photonic chips are able to achieve higher bandwidth and speed than microelectronic chips. Therefore, this technology has the potential to revolutionize communications, computation, sensing, and quantum information science.
-        <br>
-        Our team investigates the physics and applications of photonic integrated circuits, especially next-generation photonic integration technologies based on multi-material systems through advanced integration techniques. The multi-material system enables a wide range of high-performance devices, including highly coherent lasers and microcombs, ultra-low loss waveguides, highly-nonlinear devices, and high-speed modulators. The applications of photonic integrated circuits we design, fabricate, and demonstrate are numerous: Internet communication, AI, LiDAR, biomedicine, and quantum computing.
-        </font>
-        </div>
-    </div>
+
+
+    
+
+</body>
     <script type="text/javascript">
         var imgArr = []; // 图片数组
         var curIndex = 0; // 当前显示图片
@@ -228,7 +235,7 @@
         (function start() {
             var config = {
                 height: "450px", // 配置高度
-                interval: 5000 // 配置轮播时间间隔
+                interval: 2500 // 配置轮播时间间隔
             }
             var carousel = document.getElementById("carousel"); //获取容器对象的引用
             carousel.style.height = config.height; // 将轮播容器高度设定
@@ -240,11 +247,16 @@
             timer = setInterval(() => {slide(slideContainer)},config.interval); // 设置定时器定时切换
         })();
     </script>
-    <div style="position: relative; top: -375px"><br>
+
+
+<body>
+    <div style="position: relative; top: -450px"><br>
         <h1><font size = 6>
             Research
         </font></h1>
     </div>
+
+
     <div style="text-align-last: justify;" >
         <div class = research_topic>
             <a href="research topic1.html" style="text-decoration:none;">
