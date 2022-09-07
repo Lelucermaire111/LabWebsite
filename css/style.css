@@ -86,3 +86,39 @@ body {
     width:300px;
     text-align: center;
 }
+
+.research_title
+{
+    position: relative;
+    top:100px;
+    width: 1300px;
+    text-align: center;
+}
+
+.research_content
+{
+    position: relative;
+    top:100px;
+    width: 1300px;
+    line-height: 2em;
+    
+}
+
+
+.doc {
+    width: 300px;
+}
+
+.doc-img {
+    width: 100%;
+}
+
+.doc-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.doc-text h4 {
+    text-align: center;
+    padding: 5px 0;
+}
