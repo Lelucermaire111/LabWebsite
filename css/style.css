@@ -97,12 +97,12 @@
 
 
 .doc {
-    width: 300px;
+    width: 280px;
 }
 
 .doc-img {
-    width: 300px;
-    height: 400px;
+    width: 270px;
+    height: 360px;
 }
 
 .doc-img img {
@@ -111,6 +111,7 @@
 }
 
 .doc-text {
+    height: 40px;
     text-align: center;
-    padding: 5px 0;
+    padding: 15px;
 }
